@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f3ee;
+  color: #4b3b2a;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.menu {
+  background-color: #d8b89c;
+  padding: 15px;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  text-align: center;
+  padding: 40px;
+}
+.hero .hero-content {
+  max-width: 700px;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.hero p {
+  margin-bottom: 20px;
+}
+
+.btn-principal {
+  display: inline-block;
+  background-color: #d8b89c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.destacados {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: white;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card h3 {
+  margin: 15px 0;
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.aromas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.aroma-card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.formulario {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.valores {
+  width: 100%;
+  border-radius: 8px;
+}
+footer {
+  background-color: #d8b89c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .productos-grid {
+    grid-template-columns: 1fr;
+  }
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 20px;
+    text-align: center;
+  }
+  .productos-grid {
+    grid-template-columns: 1fr;
+  }
+  .aromas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+  }
+}/*# sourceMappingURL=estilos.css.map */

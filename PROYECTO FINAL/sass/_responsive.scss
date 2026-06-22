@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+
+    .productos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
